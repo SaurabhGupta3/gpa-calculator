@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GPA CALCULATOR</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="main">
+            <div id="up" class="parts">
+                <div id="welcome">Welcome!</div>
+            </div>
+            <div id="mid" class="parts">
+                <div class="components" id="parts1">
+                    <form action="">
+                        <label for="grade">Enter grade: </label>
+                        <input type="text" id="grade" />
+                        <br>
+                        <br>
+                        <br>
+                        <label for="creditGrade">Enter credit: </label>
+                        <input type="text" id="creditGrade" />
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit" id="submit2">submit</button>
+                    </form>
+                </div>
+                <div class="components" id="parts2">
+                    <form action="">
+                        <label for="internal">Enter Internal: </label>
+                        <input type="text" id="internal" />
+                        <br>
+                        <br>
+                        <br>
+                        <label for="external">Enter External: </label>
+                        <input type="text" id="external" />
+                        <br>
+                        <br>
+                        <br>
+                        <label for="creditNum">Enter credit: </label>
+                        <input type="text" id="creditNum" />
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit" id="submit1">submit</button>
+                    </form>
+                </div>
+            </div>
+            <div id="down" class="parts">
+                <div class="res">
+                    <div>Your GPA:</div>
+                    <div id="ans"></div>
+                </div>
+                <button id="reset">reset</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

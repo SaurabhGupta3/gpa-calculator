@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+#up {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#welcome {
+    color: yellow;
+    font-size: 100px;
+}
+#mid {
+    flex: 3;
+    display: flex;
+
+}
+#down {
+    flex: 1;
+}
+#parts1 {
+    flex: 1;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+#parts2 {
+    flex: 1;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    border-left: 3px solid silver;
+}
+label, input {
+    font-size: 30px;
+    height: 30px;
+}
+#internal {
+    margin-left: 9px;
+}
+#creditNum {
+    margin-left: 33px;
+}
+input {
+    padding: 5px;
+}
+button {
+    width: 100px;
+    height: 50px;
+    border: 2px solid gold;
+    background-color: lightpink;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#down {
+    display: flex;
+    align-items: center;
+    gap: 600px;
+}
+.res {
+    display: flex;
+    margin-left: 40px;
+    width: 790px;
+}
+.res > div {
+    font-size: 50px;
+    color: green;
+}
+#ans {
+    margin-left: 10px;
+}
