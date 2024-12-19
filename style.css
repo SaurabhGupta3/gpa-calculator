@@ -76,12 +76,11 @@ button {
 #down {
     display: flex;
     align-items: center;
-    gap: 600px;
+    justify-content: space-between;
 }
 .res {
     display: flex;
     margin-left: 40px;
-    width: 790px;
 }
 .res > div {
     font-size: 50px;
@@ -89,4 +88,7 @@ button {
 }
 #ans {
     margin-left: 10px;
+}
+#reset {
+    margin-right: 40px;
 }
